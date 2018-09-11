@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Contextual Menu Demo</string>
+    <string name="long_press_anywhere_to_view_menu">Long press anywhere to view menu</string>
+</resources>
