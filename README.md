@@ -1,33 +1,16 @@
-# CircleDragAnimation
-Useless animation which allows you to drag view within specified rounded boundaries
+# Android Contextual Menu 
+Here you can find an easy and awesome way to create a Contextual Menu in Android. This menu is specially designed for long press anywhere on the screen and menu popup came up with circular menus, just drag circle and select menu.
 
-[![Build Status](https://travis-ci.org/Rzodkiewka/CircleDragAnimation.svg?branch=master)](https://travis-ci.org/Rzodkiewka/CircleDragAnimation)
-# Presentation
-![](docs/app-presentation.gif)
+You can find step by step guide [here](https://www.logisticinfotech.com/blog/easiest-way-to-create-contextual-menu-in-android/) about how to implemenent it in your project. You can also customise the number of menu.
 
-## Usage
 
-```java
-final int radius = 200;
-final View view = findViewById(R.id.view_circle);
-final CircleDrag circleDrag = new CircleDrag();
-circleDrag.init(view, radius);
+# Preview
+![](https://www.logisticinfotech.com/wp-content/uploads/2018/09/android_contextual_menu.gif)
 
-```
+
 
 # License
 
-    Copyright [2016] [Robert Strzępka <robert.strzepka@gmail.com>]
+    Copyright [2018] [Logistic Infotech <info@logisticinfotech.com>]
     
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-    	http://www.apache.org/licenses/LICENSE-2.0
-        
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
